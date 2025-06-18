@@ -4,17 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Carlos Azaustre <cazaustre@gmail.com> (https://youtube.com/carlosazaustre)",
+  "keywords": ["blockchain", "javascript"],
+  "author": "Carlos Azaustre <cazaustre@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "crypto-js": "^4.1.1",
-    "hex2ascii": "^0.0.3"
+    "hex2ascii": "^0.0.3",
+    "express": "^4.18.2"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.0.0"
   }
 }
