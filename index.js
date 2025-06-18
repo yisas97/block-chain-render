@@ -30,7 +30,7 @@ async function runBlockchain() {
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Blockchain running!',
+    message: 'Blockchain corriendo!',
     blocks: blockchainData
   });
 });
